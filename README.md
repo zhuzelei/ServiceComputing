@@ -20,5 +20,6 @@ selpg程序即 *select page* 程序，可以在文件内选择部分页面或页
 
     `./selpg -s 1 -e 1 -l 10 < test.txt`
 3. 将测试文档test.txt中的第一页输入到另一空白文档out.txt中
+
     `./selpg -s 1 -e 1 -f < test.txt >out.txt`
 
