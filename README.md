@@ -19,7 +19,12 @@ selpg程序即 *select page* 程序，可以在文件内选择部分页面或页
 2. 从测试文档test.txt中读取第一页的前10行内容   
 
     `./selpg -s 1 -e 1 -l 10 < test.txt`
+    
+    ![test.txt](https://github.com/zhuzelei/ServiceComputing/blob/master/Pic/test%E9%A2%84%E8%A7%88.png)
+    
+    ![](https://github.com/zhuzelei/ServiceComputing/blob/master/Pic/测试1.png)
 3. 将测试文档test.txt中的第一页输入到另一空白文档out.txt中
 
     `./selpg -s 1 -e 1 -f < test.txt >out.txt`
-
+    
+    ![](https://github.com/zhuzelei/ServiceComputing/blob/master/Pic/%E6%B5%8B%E8%AF%952.png)
